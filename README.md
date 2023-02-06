@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+## Angular Material Setup
+__ng add @angular/material__
+__Would you like to proceed? (Y/n) : y__
+  __Indigo/Pink__
+  __global Angular Material typography styles? : No__
+  __Include and enable animations__
+
+__ng g @angular/material:address-form ng15-address-form__
+__ng g @angular/material:navigation ng15-navigation__
+__ng g @angular/material:table ng15-table__
+__ng g @angular/material:dashboard ng15-dashboard__
+__ng g @angular/material:tree ng15-tree__
+__ng g @angular/cdk:drag-drop ng15-drag-drop__

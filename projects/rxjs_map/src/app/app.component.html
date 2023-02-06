@@ -1,0 +1,7 @@
+<!-- name (code) - capital -->
+
+<ul>
+  <li *ngFor="let country of countries$ | async">
+    {{ country.name }} ({{ country.code }}) - {{ country.capital }}
+  </li>
+</ul>
